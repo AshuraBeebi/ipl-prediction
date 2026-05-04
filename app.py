@@ -101,5 +101,5 @@ def predict():
 #2. to create main function
 if __name__=='__main__':
     # running server
-    app.run(debug=True,port=4008)
+    app.run(debug=True,port=4008,host='0.0.0.0')
 
